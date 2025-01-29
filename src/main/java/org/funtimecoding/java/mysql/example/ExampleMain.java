@@ -1,3 +1,4 @@
+package org.funtimecoding.java.mysql.example;
 import java.sql.*;
 
 public class ExampleMain {
