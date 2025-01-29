@@ -1,6 +1,6 @@
 import java.sql.*;
 
-public class UserDao {
+public class ExampleMain {
     private static final String URL = "jdbc:mysql://database-1.czezznnjq1kk.us-east-1.rds.amazonaws.com:3306/testdb";  // Database URL
     private static final String USER = "admin";  // MySQL username
     private static final String PASSWORD = "ayushmanyan";  // MySQL password
@@ -68,7 +68,7 @@ public class UserDao {
     }
     
     public static void main(String[] args) {
-        UserDao dao = new UserDao();
+        ExampleMain dao = new ExampleMain();
         
         // Test CRUD operations
         dao.createUser("Mark Lee", "mark@example.com");
